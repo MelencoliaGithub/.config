@@ -3,13 +3,19 @@
 -- Forum: https://www.reddit.com/r/lunarvim/
 -- Discord: https://discord.com/invite/Xb9B4Ny
 --
+lvim.format_on_save.enabled = true
+lvim.builtin.dap.active = true
+lvim.builtin.dap.active = true
 
 lvim.plugins = {
   {
     "norcalli/nvim-colorizer.lua",
-    config = function ()
+    config = function()
       require("colorizer").setup()
     end
+  },
+  {
+    "LunarVim/lvim-themes",
   },
 
 }
