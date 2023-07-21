@@ -3,13 +3,13 @@
 --]]
 
 local colors = {
-  blue = "#7aa2f7",
-  green = "#9ece6a",
+  blue = "#5e9eb6",
+  green = "#959923",
   magenta = "#bb9af7",
   red = "#f7768e",
-  yellow = "#e0af68",
+  yellow = "#a0993d",
   fg = "#a9b1d6",
-  bg = "#16161e",
+  bg = "#181818",
   gray = "#3b4261",
 }
 -- LuaFormatter on
