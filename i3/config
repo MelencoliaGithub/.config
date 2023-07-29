@@ -58,8 +58,11 @@ exec --no-startup-id polybar mainbar -r
 # set wallpaper
 exec_always --no-startup-id feh --randomize --bg-fill ~/Imagens/wallpapers/*
 
-# printscreen
+# pConfiguração da tecla para rintscreen
 bindsym Print exec "flameshot gui"
+
+# Pause and play Deezer
+bindsym Pause exec playerctl play-pause
 
 # start a terminal
 bindsym $mod+Return exec kitty
